@@ -102,6 +102,8 @@ public class Main {
                     printMenu();
                     break;
                 case 5:
+                    itr.remove();
+                    System.out.println("current song is deleted");
                     break;
                 case 6:
                     printSongs(playList);

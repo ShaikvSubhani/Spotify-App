@@ -25,7 +25,7 @@ public class Song {
 
     @Override
     public String toString() {
-        return "subhani you are listening to Song{"+
+        return "Song{"+
                 "title="+title+'\''+", duration="+ duration+
                 '}';
     }
